@@ -1,0 +1,4 @@
+target 'LicensePlateInputView' do
+    pod 'Masonry'
+    pod 'IQKeyboardManager'
+end

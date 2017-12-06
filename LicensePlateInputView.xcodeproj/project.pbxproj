@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14A0304B1FD80592008D4EC8 /* LLSLicencePlateInputView.h in Sources */ = {isa = PBXBuildFile; fileRef = 14B2C45D1FD28E3000B94867 /* LLSLicencePlateInputView.h */; };
+		14A0304C1FD8066F008D4EC8 /* LLSNotificationName.h in Sources */ = {isa = PBXBuildFile; fileRef = 14B2C4621FD2C55A00B94867 /* LLSNotificationName.h */; };
+		14A0304D1FD80673008D4EC8 /* LLSPlateKeyBoardView.h in Sources */ = {isa = PBXBuildFile; fileRef = 14B2C45B1FD28E3000B94867 /* LLSPlateKeyBoardView.h */; };
+		14A0304E1FD8067A008D4EC8 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 14B2C4451FD28E1900B94867 /* AppDelegate.h */; };
+		14A0304F1FD8067E008D4EC8 /* ViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 14B2C4481FD28E1900B94867 /* ViewController.h */; };
+		14B2C4471FD28E1900B94867 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B2C4461FD28E1900B94867 /* AppDelegate.m */; };
+		14B2C44A1FD28E1900B94867 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B2C4491FD28E1900B94867 /* ViewController.m */; };
+		14B2C44D1FD28E1900B94867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B2C44B1FD28E1900B94867 /* Main.storyboard */; };
+		14B2C44F1FD28E1900B94867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B2C44E1FD28E1900B94867 /* Assets.xcassets */; };
+		14B2C4521FD28E1900B94867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B2C4501FD28E1900B94867 /* LaunchScreen.storyboard */; };
+		14B2C4551FD28E1900B94867 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B2C4541FD28E1900B94867 /* main.m */; };
+		14B2C45F1FD28E3000B94867 /* LLSPlateKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B2C45C1FD28E3000B94867 /* LLSPlateKeyBoardView.m */; };
+		14B2C4601FD28E3000B94867 /* LLSLicencePlateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B2C45E1FD28E3000B94867 /* LLSLicencePlateInputView.m */; };
+		14B2C4641FD2C55A00B94867 /* LLSNotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B2C4631FD2C55A00B94867 /* LLSNotificationName.m */; };
+		F93A7CF5464A1C5B265C0198 /* libPods-LicensePlateInputView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FE45ECBF6A71AF9DFDB5CB /* libPods-LicensePlateInputView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14B2C4421FD28E1900B94867 /* LicensePlateInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LicensePlateInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B2C4451FD28E1900B94867 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14B2C4461FD28E1900B94867 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14B2C4481FD28E1900B94867 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14B2C4491FD28E1900B94867 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14B2C44C1FD28E1900B94867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14B2C44E1FD28E1900B94867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14B2C4511FD28E1900B94867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14B2C4531FD28E1900B94867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B2C4541FD28E1900B94867 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14B2C45B1FD28E3000B94867 /* LLSPlateKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSPlateKeyBoardView.h; sourceTree = "<group>"; };
+		14B2C45C1FD28E3000B94867 /* LLSPlateKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSPlateKeyBoardView.m; sourceTree = "<group>"; };
+		14B2C45D1FD28E3000B94867 /* LLSLicencePlateInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSLicencePlateInputView.h; sourceTree = "<group>"; };
+		14B2C45E1FD28E3000B94867 /* LLSLicencePlateInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSLicencePlateInputView.m; sourceTree = "<group>"; };
+		14B2C4611FD2C48700B94867 /* LLSMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLSMacro.h; sourceTree = "<group>"; };
+		14B2C4621FD2C55A00B94867 /* LLSNotificationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSNotificationName.h; sourceTree = "<group>"; };
+		14B2C4631FD2C55A00B94867 /* LLSNotificationName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSNotificationName.m; sourceTree = "<group>"; };
+		35FE45ECBF6A71AF9DFDB5CB /* libPods-LicensePlateInputView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LicensePlateInputView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		818A31AB1D85ED41EB5B06B0 /* Pods-LicensePlateInputView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LicensePlateInputView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LicensePlateInputView/Pods-LicensePlateInputView.debug.xcconfig"; sourceTree = "<group>"; };
+		D5BA891633D31A1B7944F487 /* Pods-LicensePlateInputView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LicensePlateInputView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LicensePlateInputView/Pods-LicensePlateInputView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14B2C43F1FD28E1900B94867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93A7CF5464A1C5B265C0198 /* libPods-LicensePlateInputView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06892AD989473249E9B17F8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				818A31AB1D85ED41EB5B06B0 /* Pods-LicensePlateInputView.debug.xcconfig */,
+				D5BA891633D31A1B7944F487 /* Pods-LicensePlateInputView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		14B2C4391FD28E1900B94867 = {
+			isa = PBXGroup;
+			children = (
+				14B2C4441FD28E1900B94867 /* LicensePlateInputView */,
+				14B2C4431FD28E1900B94867 /* Products */,
+				06892AD989473249E9B17F8E /* Pods */,
+				7E0BA82FAA6FD4B364480A72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14B2C4431FD28E1900B94867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14B2C4421FD28E1900B94867 /* LicensePlateInputView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B2C4441FD28E1900B94867 /* LicensePlateInputView */ = {
+			isa = PBXGroup;
+			children = (
+				14B2C4621FD2C55A00B94867 /* LLSNotificationName.h */,
+				14B2C4631FD2C55A00B94867 /* LLSNotificationName.m */,
+				14B2C45B1FD28E3000B94867 /* LLSPlateKeyBoardView.h */,
+				14B2C45C1FD28E3000B94867 /* LLSPlateKeyBoardView.m */,
+				14B2C45D1FD28E3000B94867 /* LLSLicencePlateInputView.h */,
+				14B2C45E1FD28E3000B94867 /* LLSLicencePlateInputView.m */,
+				14B2C4451FD28E1900B94867 /* AppDelegate.h */,
+				14B2C4461FD28E1900B94867 /* AppDelegate.m */,
+				14B2C4481FD28E1900B94867 /* ViewController.h */,
+				14B2C4491FD28E1900B94867 /* ViewController.m */,
+				14B2C44B1FD28E1900B94867 /* Main.storyboard */,
+				14B2C44E1FD28E1900B94867 /* Assets.xcassets */,
+				14B2C4501FD28E1900B94867 /* LaunchScreen.storyboard */,
+				14B2C4531FD28E1900B94867 /* Info.plist */,
+				14B2C4541FD28E1900B94867 /* main.m */,
+				14B2C4611FD2C48700B94867 /* LLSMacro.h */,
+			);
+			path = LicensePlateInputView;
+			sourceTree = "<group>";
+		};
+		7E0BA82FAA6FD4B364480A72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35FE45ECBF6A71AF9DFDB5CB /* libPods-LicensePlateInputView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14B2C4411FD28E1900B94867 /* LicensePlateInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B2C4581FD28E1900B94867 /* Build configuration list for PBXNativeTarget "LicensePlateInputView" */;
+			buildPhases = (
+				0B96C2371277730379BBB8FE /* [CP] Check Pods Manifest.lock */,
+				14B2C43E1FD28E1900B94867 /* Sources */,
+				14B2C43F1FD28E1900B94867 /* Frameworks */,
+				14B2C4401FD28E1900B94867 /* Resources */,
+				808E70B3605A6023B97C9993 /* [CP] Embed Pods Frameworks */,
+				45C2A420E7BBF543EF351A7B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LicensePlateInputView;
+			productName = LicensePlateInputView;
+			productReference = 14B2C4421FD28E1900B94867 /* LicensePlateInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14B2C43A1FD28E1900B94867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = liulishuo;
+				TargetAttributes = {
+					14B2C4411FD28E1900B94867 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 14B2C43D1FD28E1900B94867 /* Build configuration list for PBXProject "LicensePlateInputView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14B2C4391FD28E1900B94867;
+			productRefGroup = 14B2C4431FD28E1900B94867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14B2C4411FD28E1900B94867 /* LicensePlateInputView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14B2C4401FD28E1900B94867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B2C4521FD28E1900B94867 /* LaunchScreen.storyboard in Resources */,
+				14B2C44F1FD28E1900B94867 /* Assets.xcassets in Resources */,
+				14B2C44D1FD28E1900B94867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B96C2371277730379BBB8FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LicensePlateInputView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45C2A420E7BBF543EF351A7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LicensePlateInputView/Pods-LicensePlateInputView-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LicensePlateInputView/Pods-LicensePlateInputView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		808E70B3605A6023B97C9993 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LicensePlateInputView/Pods-LicensePlateInputView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B2C43E1FD28E1900B94867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A0304F1FD8067E008D4EC8 /* ViewController.h in Sources */,
+				14A0304E1FD8067A008D4EC8 /* AppDelegate.h in Sources */,
+				14A0304D1FD80673008D4EC8 /* LLSPlateKeyBoardView.h in Sources */,
+				14A0304C1FD8066F008D4EC8 /* LLSNotificationName.h in Sources */,
+				14A0304B1FD80592008D4EC8 /* LLSLicencePlateInputView.h in Sources */,
+				14B2C44A1FD28E1900B94867 /* ViewController.m in Sources */,
+				14B2C4601FD28E3000B94867 /* LLSLicencePlateInputView.m in Sources */,
+				14B2C4551FD28E1900B94867 /* main.m in Sources */,
+				14B2C4471FD28E1900B94867 /* AppDelegate.m in Sources */,
+				14B2C4641FD2C55A00B94867 /* LLSNotificationName.m in Sources */,
+				14B2C45F1FD28E3000B94867 /* LLSPlateKeyBoardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14B2C44B1FD28E1900B94867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B2C44C1FD28E1900B94867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14B2C4501FD28E1900B94867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B2C4511FD28E1900B94867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14B2C4561FD28E1900B94867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14B2C4571FD28E1900B94867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14B2C4591FD28E1900B94867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818A31AB1D85ED41EB5B06B0 /* Pods-LicensePlateInputView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LicensePlateInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liulishuo.LicensePlateInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14B2C45A1FD28E1900B94867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5BA891633D31A1B7944F487 /* Pods-LicensePlateInputView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LicensePlateInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liulishuo.LicensePlateInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14B2C43D1FD28E1900B94867 /* Build configuration list for PBXProject "LicensePlateInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B2C4561FD28E1900B94867 /* Debug */,
+				14B2C4571FD28E1900B94867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B2C4581FD28E1900B94867 /* Build configuration list for PBXNativeTarget "LicensePlateInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B2C4591FD28E1900B94867 /* Debug */,
+				14B2C45A1FD28E1900B94867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14B2C43A1FD28E1900B94867 /* Project object */;
+}
